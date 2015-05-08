@@ -1,0 +1,31 @@
+{
+    "name": "pushL",
+    "version": "0.1",
+    "description": "Library to send pushmessages to different mobile devices",
+    "keywords": ["android", "google", "GCM", "apns", "push-messaging", "mobile"],
+    "maintainers": [{
+            "name": "Manfred Andres",
+            "email": "manfred.andres@gmail.com"
+        }],
+    "contributors": [
+        {
+            "name": "Manfred Andres",
+            "email": "manfred.andres@gmail.com"
+        }
+    ],
+    "dependencies": {},
+    "licenses": [{
+        "type": "Apache License Version 2.0",
+        "url": "http://www.apache.org/licenses/"
+    }],
+    "repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/kmfdm1/pushL.git"
+    }
+    ],
+    "engines": {
+        "ringojs": ">=0.9"
+    },
+    "main": "./lib/main.js"
+}
