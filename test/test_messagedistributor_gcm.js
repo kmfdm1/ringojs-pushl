@@ -61,6 +61,13 @@ exports.setUp = function() {
         gcm: {
             server: server.getUrl(),
             apiKey: "theKey"
+        },
+        apns: {
+            testmode: true,
+            certificate: {
+                path: "insertCertHere",
+                password: "insertPwdForCertHere"
+            }
         }
     });
 };
