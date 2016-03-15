@@ -1,8 +1,8 @@
 {
-    "name": "pushL",
+    "name": "ringojs-pushl",
     "version": "0.1",
-    "description": "Library to send pushmessages to different mobile devices",
-    "keywords": ["android", "google", "GCM", "apns", "push-messaging", "mobile"],
+    "description": "Library to send pushmessages to different mobile devices and browsers",
+    "keywords": ["android", "google", "GCM", "apns", "push-messaging", "mobile", "mozilla"],
     "maintainers": [{
             "name": "Manfred Andres",
             "email": "manfred.andres@gmail.com"
@@ -11,17 +11,22 @@
         {
             "name": "Manfred Andres",
             "email": "manfred.andres@gmail.com"
-        }
+        },
+        {
+            "name": "Simon Oberhammer",
+            "web": "http://nekapuzer.at/",
+            "email": "simon@nekapuzer.at"
     ],
     "dependencies": {},
     "licenses": [{
         "type": "Apache License Version 2.0",
         "url": "http://www.apache.org/licenses/"
     }],
+    "bugs": "https://github.com/kmfdm1/ringojs-pushl/issues",
     "repositories": [
     {
         "type": "git",
-        "url": "https://github.com/kmfdm1/pushL.git"
+        "url": "https://github.com/kmfdm1/ringojs-pushl"
     }
     ],
     "engines": {

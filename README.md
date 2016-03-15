@@ -1,4 +1,4 @@
-Quick example:
+# Quick example:
 
     var pushLibrary = require('ringojs-pushL');
     var distributor = pushLibrary.getMessageDistributor("foobar", {
@@ -16,7 +16,7 @@ Quick example:
 
     distributor.sendMessage(message);
 
-Distributor events:
+## Distributor events:
 
   * messageSent
   * messageRescheduled
@@ -29,10 +29,15 @@ Distributor events:
   * idUnregistered
   * idUnhandledError
 
-Message events:
+## Message events:
 
   * success
   * failed
   * idChange
   * idUnregistered
   * idUnhandledError
+  
+## Acknowledgements
+
+This package utilizes relayrides/pushy version 0.4.3 for apples apns-push-messages.
+https://github.com/relayrides/pushy
